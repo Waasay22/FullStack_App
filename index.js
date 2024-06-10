@@ -160,6 +160,6 @@ server.use('*',(req,res)=>{
     // res.send('hello')
 //     res.sendFile("D:/nodejs2/index.html")
 // })
-server.listen(8080, ()=>{
+server.listen(process.env.PORT, ()=>{
     console.log('server started')
 })
