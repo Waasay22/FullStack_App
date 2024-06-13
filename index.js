@@ -17,9 +17,9 @@ const { Schema } = mongoose;
 const productRouter= require('./routes/product')
 const userRouter= require('./routes/user')
 // const { title } = require('process')
-const index = fs.readFileSync('index.html','utf-8')
+// const index = fs.readFileSync('index.html','utf-8')
 // const data = {age : 5}
-const data2 = JSON.parse(fs.readFileSync('data.json', 'utf-8'))
+// const data2 = JSON.parse(fs.readFileSync('data.json', 'utf-8'))
 const products = data2.products
 // const server = http.createServer((req,res)=>{
     // console.log('server started', req.url)
